@@ -106,19 +106,19 @@ const experience: ExperienceItem[] = [
   },
   {
     logo: lemonLogo,
-    role: "Product Manager - Acquisition",
+    role: "Senior Product Manager - Growth",
     company: "@Lemoncash",
     period: "October 2021 - October 2022",
   },
   {
     logo: personalPayLogo,
-    role: "Product Manager - Acquisition",
+    role: "Product Manager - Onboarding",
     company: "Personal Pay",
     period: "July 2020 - October 2021",
   },
   {
     logo: iunigoLogo,
-    role: "Product Owner - Credit Network (Crypto)",
+    role: "Product Manager - Onboarding",
     company: "IUNIGO",
     period: "July 2019 - July 2020",
   },
