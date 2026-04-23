@@ -256,8 +256,20 @@ export default function App() {
               <div className="mt-4 flex items-start justify-center gap-3 md:mt-5 md:justify-start">
                 <div className="w-[3px] self-stretch rounded bg-[hsl(var(--cv-contact-bar))]" />
                 <div className="flex flex-col gap-1 text-left text-[12px] text-[hsl(var(--cv-body))]">
-                  <a href="https://wa.me/5491158077847">+54 911 5807 7847</a>
-                  <span>medium.com/@ignacio-perezroca</span>
+                  <a
+                    href="https://wa.me/5491158077847"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    +54 911 5807 7847
+                  </a>
+                  <a
+                    href="https://ignacio-perezroca.medium.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    medium.com/@ignacio-perezroca
+                  </a>
                 </div>
               </div>
             </div>
