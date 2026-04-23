@@ -94,13 +94,13 @@ const education: EducationItem[] = [
 const experience: ExperienceItem[] = [
   {
     logo: ittiLogo,
-    role: "Senior Product Manager",
+    role: "Senior Product Manager - Onboarding",
     company: "itti",
     period: "Sep 2024 – Present · 1 yr 7 mos",
   },
   {
     logo: bitsoLogo,
-    role: "Senior Product Manager",
+    role: "Senior Product Manager - Onboarding",
     company: "@Bitso",
     period: "Oct 2022 – Sep 2024 · 2 yrs",
   },
@@ -124,7 +124,7 @@ const experience: ExperienceItem[] = [
   },
   {
     logo: ripioLogo,
-    role: "Product Owner - Credit Network (Crypto)",
+    role: "Product Manager - Onboarding",
     company: "Ripio",
     period: "September 2017 - July 2019",
   },
@@ -569,9 +569,9 @@ export default function App() {
                 {experience.map((item) => (
                   <div
                     key={`${item.company}-${item.role}`}
-                    className="flex items-start gap-3"
+                    className="flex items-center gap-3"
                   >
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center self-start">
                       <span className="text-[8px] text-[hsl(var(--cv-timeline-dot))]">
                         ▲
                       </span>
@@ -582,7 +582,7 @@ export default function App() {
                       />
                     </div>
 
-                    <div>
+                    <div className="flex min-h-[40px] flex-col justify-center">
                       <p className="text-[11px] font-bold text-[hsl(var(--cv-section-title))]">
                         {item.role}
                       </p>
