@@ -307,6 +307,7 @@ export default function App() {
               </section>
 
             <section className="mt-5">
+              <p className="cv-body-text mb-1 font-bold">Key achievements</p>
               <ul className="cv-body-text list-none space-y-0.5">
                 <li>
                   • Boosted Bitso&apos;s onboarding conversion by +262% for
