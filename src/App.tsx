@@ -348,7 +348,7 @@ export default function App() {
                 </li>
                 <li>
                   • Led cross-functional teams from 0 to 18+ across Argentina,
-                  Brazil, Mexico, Paraguay, and Colombia.
+                  Brazil, Mexico, Paraguay, Colombia and United States.
                 </li>
               </ul>
             </section>
