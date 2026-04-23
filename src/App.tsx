@@ -271,8 +271,9 @@ export default function App() {
 
                 <div className="mt-3 space-y-3">
                   <p className="cv-body-text">
-                    I&apos;m a Product Manager with 16+ years of experience
-                    building human-first, scalable onboarding journeys.
+                    I&apos;m a Senior Product Manager with 16+ years of
+                    experience building human-first, scalable onboarding
+                    journeys.
                   </p>
                   <p className="cv-body-text">
                     Over the years, I&apos;ve acquired a wide range of tools,
@@ -286,10 +287,10 @@ export default function App() {
                   <p className="cv-body-text">
                     Having built products from scratch in various roles, my
                     strength lies in combining empathy and visual thinking (User
-                    Experience Design) with technical credibility (8 years as a
-                    developer). This holistic perspective allows me to translate
-                    metrics into meaningful product experiences that drive
-                    acquisition, retention, and long-term impact.
+                    Experience Design) with technical experience (8 years as a
+                    developer). This holistic perspective allows me to
+                    translate metrics into meaningful product experiences that
+                    drive acquisition, retention, and long-term impact.
                   </p>
                   <p className="cv-body-text">
                     When it comes to building, I rely on data to surface real
