@@ -307,49 +307,35 @@ export default function App() {
               </section>
 
             <section className="mt-5">
-              <p className="cv-body-text mb-1 font-bold">
-                Achieved Remarkable Growth at Bitso
-              </p>
               <ul className="cv-body-text list-none space-y-0.5">
                 <li>
-                  • Currently at ITTI, leading UNID (Unified Identity), the
-                  login and onboarding infrastructure unifying ~3M users across
-                  the Grupo Vázquez ecosystem, with rollout across 30 companies
-                  and continued expansion.
+                  • Boosted Bitso&apos;s onboarding conversion by +262% for
+                  over 8M users.
                 </li>
                 <li>
-                  • Led Bitso&apos;s product expansion, achieving an annual
-                  growth rate of +75%, scaling from 4 million to nearly 7
-                  million users.
+                  • Scaled Lemon from 60k to 2M users in 6 months (+3200%
+                  growth).
                 </li>
                 <li>
-                  • Enhanced the onboarding conversion rate by +262%,
-                  increasing from 8% to 29% in just one year.
+                  • Built and scaled UNID (Unified Identity), unifying ~3M
+                  users across 30 companies within the Grupo Vázquez
+                  ecosystem.
                 </li>
                 <li>
-                  • Developed a new home screen for an exchange with over 8
-                  million users, driving a 35% increase in product activation.
-                </li>
-              </ul>
-            </section>
-
-            <section className="mt-4">
-              <p className="cv-body-text mb-1 font-bold">
-                Achieved Remarkable Growth at Lemon
-              </p>
-              <ul className="cv-body-text list-none space-y-0.5">
-                <li>
-                  • Led Lemon&apos;s product growth, achieving a remarkable
-                  +2500% increase, scaling from 60k to 1.5M users.
+                  • Led multi-country onboarding launches across LatAm,
+                  acquiring over 1M users in the first year.
                 </li>
                 <li>
-                  • Successfully launched onboarding products for Argentina,
-                  Brazil, Mexico, Peru, Colombia, Uruguay, and Ecuador in 6
-                  months, acquiring over 1M users in the first year.
+                  • Led Bitso&apos;s product expansion, scaling from 4 million
+                  to nearly 7 million users (+75% annual growth).
                 </li>
                 <li>
-                  • Enhanced the onboarding conversion rate by +60%,
-                  increasing from 50% to 80% within a year.
+                  • Developed a new home screen for an exchange with over 8M
+                  users, driving a 35% increase in product activation.
+                </li>
+                <li>
+                  • Led cross-functional teams from 0 to 18+ across Argentina,
+                  Brazil, Mexico, Paraguay, and Colombia.
                 </li>
               </ul>
             </section>
