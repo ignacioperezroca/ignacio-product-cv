@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import profileImage from "./assets/profile.png";
@@ -204,6 +205,27 @@ function LanguageCircle({ label, sublabel, percentage }: Language) {
   );
 }
 
+function SpecialtyNode({
+  icon,
+  label,
+}: {
+  icon: ReactNode;
+  label: string;
+}) {
+  return (
+    <div className="flex flex-col items-center">
+      <div className="flex h-[110px] w-[110px] items-center justify-center rounded-full border-[1.5px] border-[hsl(var(--cv-dotted-line))]">
+        {icon}
+      </div>
+      <span className="-mt-[2px] h-[8px] w-[8px] rounded-full bg-[hsl(var(--cv-section-title))]" />
+      <span className="h-[48px] w-[1.5px] bg-[hsl(var(--cv-dotted-line))]" />
+      <span className="mt-3 text-center text-[10px] font-normal text-[hsl(var(--cv-section-title))]">
+        {label}
+      </span>
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <>
@@ -334,62 +356,95 @@ export default function App() {
               <h2 className="cv-section-title mb-2">SPECIALTY</h2>
               <DottedSeparator />
 
-              <div className="mt-4 flex justify-center">
-                <svg
-                  width="220"
-                  height="180"
-                  viewBox="0 0 220 180"
-                  aria-label="Specialty diagram"
-                >
-                  <circle
-                    cx="90"
-                    cy="75"
-                    r="55"
-                    fill="none"
-                    stroke="hsl(var(--cv-dotted-line))"
-                    strokeWidth="1.5"
-                  />
-                  <circle
-                    cx="140"
-                    cy="75"
-                    r="55"
-                    fill="none"
-                    stroke="hsl(var(--cv-dotted-line))"
-                    strokeWidth="1.5"
-                  />
-                  <circle
-                    cx="115"
-                    cy="120"
-                    r="55"
-                    fill="none"
-                    stroke="hsl(var(--cv-dotted-line))"
-                    strokeWidth="1.5"
-                  />
-                  <text x="65" y="70" fontSize="20" textAnchor="middle">
-                    {"🧑‍💼"}
-                  </text>
-                  <text x="160" y="70" fontSize="20" textAnchor="middle">
-                    {"🎨"}
-                  </text>
-                  <text x="115" y="150" fontSize="20" textAnchor="middle">
-                    {"💻"}
-                  </text>
-                </svg>
-              </div>
+              <div className="mt-6 flex items-start justify-between px-3">
+                <SpecialtyNode
+                  label="Product"
+                  icon={
+                    <svg
+                      width="34"
+                      height="48"
+                      viewBox="0 0 34 48"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M17 2C9.6 2 4 7.5 4 14.6c0 4.3 1.9 7.5 4.1 11 2 3.2 4.2 6.8 4.7 11.4h8.4c.5-4.6 2.7-8.2 4.7-11.4 2.2-3.5 4.1-6.7 4.1-11C30 7.5 24.4 2 17 2Z"
+                        fill="#1DA1E2"
+                      />
+                      <rect x="10" y="39" width="14" height="3" rx="1.5" fill="#1DA1E2" />
+                      <rect x="11" y="44" width="12" height="3" rx="1.5" fill="#1DA1E2" />
+                    </svg>
+                  }
+                />
 
-              <div className="-mt-1 flex justify-between px-4">
-                <span className="text-[10px] font-semibold text-[hsl(var(--cv-body))]">
-                  Product
-                </span>
-                <span className="text-[10px] font-semibold text-[hsl(var(--cv-body))]">
-                  UX / UI Design
-                </span>
-              </div>
+                <SpecialtyNode
+                  label="Development"
+                  icon={
+                    <svg
+                      width="46"
+                      height="40"
+                      viewBox="0 0 46 40"
+                      aria-hidden="true"
+                    >
+                      <rect x="6" y="14" width="22" height="22" fill="#1DA1E2" />
+                      <rect
+                        x="17"
+                        y="8"
+                        width="22"
+                        height="22"
+                        fill="none"
+                        stroke="#1DA1E2"
+                        strokeWidth="4"
+                      />
+                      <rect
+                        x="24"
+                        y="3"
+                        width="19"
+                        height="19"
+                        fill="none"
+                        stroke="#1DA1E2"
+                        strokeWidth="4"
+                      />
+                    </svg>
+                  }
+                />
 
-              <div className="mt-1 text-center">
-                <span className="text-[10px] font-semibold text-[hsl(var(--cv-body))]">
-                  Development
-                </span>
+                <SpecialtyNode
+                  label="UX / UI Design"
+                  icon={
+                    <svg
+                      width="44"
+                      height="44"
+                      viewBox="0 0 44 44"
+                      aria-hidden="true"
+                    >
+                      <rect
+                        x="5"
+                        y="5"
+                        width="34"
+                        height="34"
+                        fill="none"
+                        stroke="#1DA1E2"
+                        strokeWidth="3"
+                      />
+                      <line
+                        x1="5"
+                        y1="14"
+                        x2="39"
+                        y2="14"
+                        stroke="#1DA1E2"
+                        strokeWidth="3"
+                      />
+                      <line
+                        x1="22"
+                        y1="14"
+                        x2="22"
+                        y2="39"
+                        stroke="#1DA1E2"
+                        strokeWidth="3"
+                      />
+                    </svg>
+                  }
+                />
               </div>
             </section>
 
