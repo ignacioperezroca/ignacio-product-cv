@@ -248,30 +248,36 @@ export default function App() {
 
                 <div className="mt-3 space-y-3">
                   <p className="cv-body-text">
-                    As an Acquisition Product Manager at Bitso, I am reinventing
-                    crypto by creating user-focused products that are easier and
-                    more intuitive to use. I have a CSPO® certification and a
-                    strong background in UX/UI design and frontend development,
-                    which enable me to deliver impactful solutions that meet
-                    user needs and business goals.
+                    I&apos;m a Product Manager with 16+ years of experience
+                    building human-first, scalable onboarding journeys.
                   </p>
                   <p className="cv-body-text">
-                    Working on various projects from scratch in different roles,
-                    such as product designer, frontend developer, and product
-                    manager, gave me a holistic view in the digital products. I
-                    focus my work on users needs and creating the journey from
-                    there. When it comes to building products, my thing is using
-                    data that exposes a problem or opportunity to solve real
-                    user problems and create products that simplify
-                    people&apos;s daily lives and empower them to access the
-                    crypto revolution.
+                    Over the years, I&apos;ve acquired a wide range of tools,
+                    tactics, and experience across various roles and industries.
+                    I specialize in digital identity, KYC, authentication, and
+                    product-led growth. I&apos;ve led international teams from
+                    0 to 18+ across Argentina, Brazil, Mexico, Paraguay, and
+                    Colombia, successfully onboarding over 8 million users in
+                    fintech, crypto, and Web3.
                   </p>
                   <p className="cv-body-text">
-                    Working in the digital ecosystem for 11 years, I was able
-                    to gather a wide range of tools, tactics and experience.
-                    Building trust and equipping my teammates to develop
-                    game-changing solutions, I&apos;ve repeatedly proven
-                    innovation, customer centricity, drive and motivation.
+                    Having built products from scratch in various roles, my
+                    strength lies in combining empathy and visual thinking (User
+                    Experience Design) with technical credibility (8 years as a
+                    developer). This holistic perspective allows me to translate
+                    metrics into meaningful product experiences that drive
+                    acquisition, retention, and long-term impact.
+                  </p>
+                  <p className="cv-body-text">
+                    When it comes to building, I rely on data to surface real
+                    problems and opportunities, and I craft products that
+                    simplify people&apos;s lives. I hold a Certified Scrum
+                    Product Owner (CSPO®), Certified Scrum Trainer (CST®), and
+                    several other certifications from world-class universities.
+                  </p>
+                  <p className="cv-body-text">
+                    My mission is to build trust, empower teams, and deliver
+                    products that people love.
                   </p>
                 </div>
               </section>
@@ -281,6 +287,12 @@ export default function App() {
                 Achieved Remarkable Growth at Bitso
               </p>
               <ul className="cv-body-text list-none space-y-0.5">
+                <li>
+                  • Currently at ITTI, leading UNID (Unified Identity), the
+                  login and onboarding infrastructure unifying ~3M users across
+                  the Grupo Vázquez ecosystem, with rollout across 30 companies
+                  and continued expansion.
+                </li>
                 <li>
                   • Led Bitso&apos;s product expansion, achieving an annual
                   growth rate of +75%, scaling from 4 million to nearly 7
