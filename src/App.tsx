@@ -118,13 +118,13 @@ const experience: ExperienceItem[] = [
   },
   {
     logo: iunigoLogo,
-    role: "Product Manager - Onboarding",
+    role: "Product Owner - Credit Network (Crypto)",
     company: "IUNIGO",
     period: "July 2019 - July 2020",
   },
   {
     logo: ripioLogo,
-    role: "Product Owner - Credit Crypto Product",
+    role: "Product Owner - Credit Network (Crypto)",
     company: "Ripio",
     period: "September 2017 - July 2019",
   },
@@ -213,13 +213,13 @@ function SpecialtyNode({
   label: string;
 }) {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex h-[110px] w-[110px] items-center justify-center rounded-full border-[1.5px] border-[hsl(var(--cv-dotted-line))]">
+    <div className="flex w-full flex-col items-center md:w-auto">
+      <div className="flex h-[110px] w-[110px] items-center justify-center rounded-full border-[1.5px] border-[hsl(var(--cv-dotted-line))] sm:h-[118px] sm:w-[118px] md:h-[110px] md:w-[110px]">
         {icon}
       </div>
       <span className="-mt-[2px] h-[8px] w-[8px] rounded-full bg-[hsl(var(--cv-section-title))]" />
-      <span className="h-[48px] w-[1.5px] bg-[hsl(var(--cv-dotted-line))]" />
-      <span className="mt-3 text-center text-[10px] font-normal text-[hsl(var(--cv-section-title))]">
+      <span className="h-[30px] w-[1.5px] bg-[hsl(var(--cv-dotted-line))] sm:h-[40px] md:h-[48px]" />
+      <span className="mt-2 text-center text-[12px] font-normal text-[hsl(var(--cv-section-title))] sm:text-[13px] md:mt-3 md:text-[10px]">
         {label}
       </span>
     </div>
@@ -356,7 +356,7 @@ export default function App() {
               <h2 className="cv-section-title mb-2">SPECIALTY</h2>
               <DottedSeparator />
 
-              <div className="mt-6 flex items-start justify-between px-3">
+              <div className="mt-6 flex flex-col items-center gap-8 px-3 sm:gap-10 md:flex-row md:items-start md:justify-between md:gap-0">
                 <SpecialtyNode
                   label="Product"
                   icon={
