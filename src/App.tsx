@@ -94,31 +94,31 @@ const education: EducationItem[] = [
 const experience: ExperienceItem[] = [
   {
     logo: ittiLogo,
-    role: "Onboarding Product Manager",
+    role: "Senior Product Manager",
     company: "itti",
     period: "Sep 2024 – Present · 1 yr 7 mos",
   },
   {
     logo: bitsoLogo,
-    role: "Onboarding Product Manager",
+    role: "Senior Product Manager",
     company: "@Bitso",
     period: "Oct 2022 – Sep 2024 · 2 yrs",
   },
   {
     logo: lemonLogo,
-    role: "Product Manager - Acquisition | CSPO",
+    role: "Product Manager - Acquisition",
     company: "@Lemoncash",
     period: "October 2021 - October 2022",
   },
   {
     logo: personalPayLogo,
-    role: "Product Manager - Acquisition | CSPO",
+    role: "Product Manager - Acquisition",
     company: "Personal Pay",
     period: "July 2020 - October 2021",
   },
   {
     logo: iunigoLogo,
-    role: "Product Manager - Onboarding | CSPO",
+    role: "Product Manager - Onboarding",
     company: "IUNIGO",
     period: "July 2019 - July 2020",
   },
